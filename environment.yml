@@ -1,0 +1,18 @@
+# Minimal conda environment for the root-level paper-style experiments.
+# This file is intended for:
+# - simulation/paper_simulator.py
+# - testbed/farfly_testbed/only_server/paper_benchmark.py
+# It does not try to cover every dependency inside AI_model/.
+
+name: priorityschedulecode
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.23
+  - pip>=25
+  - numpy=2.0.1
+  - pandas=2.3.3
+  - protobuf=4.25.3
+  - grpcio=1.59.5
+  - grpcio-tools=1.59.5

@@ -1,0 +1,49 @@
+{
+  "forecasts": [
+    {
+      "service": "trace_fast_frequency",
+      "task_type": "frequency",
+      "flow_count": 8,
+      "fps_slo": 2.87,
+      "weight": 1.2
+    },
+    {
+      "service": "trace_fast_latency",
+      "task_type": "latency",
+      "arrival_rate": 1.23,
+      "weight": 1.0
+    },
+    {
+      "service": "trace_heavy_latency",
+      "task_type": "latency",
+      "arrival_rate": 0.1,
+      "weight": 1.2
+    },
+    {
+      "service": "trace_medium_frequency",
+      "task_type": "frequency",
+      "flow_count": 9,
+      "fps_slo": 2.84,
+      "weight": 1.3
+    },
+    {
+      "service": "trace_medium_latency",
+      "task_type": "latency",
+      "arrival_rate": 2.8,
+      "weight": 1.0
+    },
+    {
+      "service": "trace_slow_frequency",
+      "task_type": "frequency",
+      "flow_count": 25,
+      "fps_slo": 1.05,
+      "weight": 1.4
+    },
+    {
+      "service": "trace_slow_latency",
+      "task_type": "latency",
+      "arrival_rate": 0.17,
+      "weight": 1.1
+    }
+  ]
+}

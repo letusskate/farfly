@@ -1,0 +1,70 @@
+{
+  "description": "Static offline placement plan for the local three-server FarFly emulation. Services stay fixed until /plan/reload or process restart.",
+  "window_seconds": 60,
+  "placements": [
+    {
+      "service": "resnet50_image_classification",
+      "server_ids": [
+        "server0"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "resnet50_image_classification",
+      "server_ids": [
+        "server2"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "yolov10_image_detection",
+      "server_ids": [
+        "server0"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "yolov10_image_detection",
+      "server_ids": [
+        "server2"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "deeplabv3_video_segmentation",
+      "server_ids": [
+        "server1"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "deeplabv3_video_segmentation",
+      "server_ids": [
+        "server2"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "unet_video_segmentation",
+      "server_ids": [
+        "server0"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "unet_video_segmentation",
+      "server_ids": [
+        "server2"
+      ],
+      "stage": "static"
+    },
+    {
+      "service": "llama3_chat_generation",
+      "server_ids": [
+        "server0",
+        "server1"
+      ],
+      "stage": "static-group"
+    }
+  ]
+}

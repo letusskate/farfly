@@ -1,0 +1,65 @@
+{
+  "name": "server2",
+  "self": {
+    "ip": "127.0.0.1",
+    "port": 8002,
+    "exposed_ip": "127.0.0.1"
+  },
+  "scheduler": {
+    "ip": "127.0.0.1",
+    "port": 8100
+  },
+  "servers": [
+    {
+      "name": "server0",
+      "ip": "127.0.0.1",
+      "port": 8000,
+      "resource": {
+        "compute_capacity": 1.0,
+        "vram_capacity_gb": 24.0,
+        "queue_capacity": 128,
+        "gpu_count": 1,
+        "initial_credit_pool": 64,
+        "max_credit_pool": 128
+      }
+    },
+    {
+      "name": "server1",
+      "ip": "127.0.0.1",
+      "port": 8001,
+      "resource": {
+        "compute_capacity": 1.0,
+        "vram_capacity_gb": 24.0,
+        "queue_capacity": 128,
+        "gpu_count": 1,
+        "initial_credit_pool": 64,
+        "max_credit_pool": 128
+      }
+    },
+    {
+      "name": "server2",
+      "ip": "127.0.0.1",
+      "port": 8002,
+      "resource": {
+        "compute_capacity": 1.0,
+        "vram_capacity_gb": 24.0,
+        "queue_capacity": 128,
+        "gpu_count": 1,
+        "initial_credit_pool": 64,
+        "max_credit_pool": 128
+      }
+    }
+  ],
+  "service_catalog_file": "trace_services.json",
+  "max_offload_count": 3,
+  "timeout_seconds": 30,
+  "max_concurrent_tasks": 4,
+  "resource": {
+    "compute_capacity": 1.0,
+    "vram_capacity_gb": 24.0,
+    "queue_capacity": 128,
+    "gpu_count": 1,
+    "initial_credit_pool": 64,
+    "max_credit_pool": 128
+  }
+}

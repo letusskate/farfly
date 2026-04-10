@@ -1,0 +1,2189 @@
+{
+  "local": {
+    "submitted": 660,
+    "elapsed_seconds": 15.661000000000001,
+    "success_count": 660,
+    "good_count": 228,
+    "violation_count": 432,
+    "avg_duration_ms": 355.89,
+    "p50_duration_ms": 294.52,
+    "p99_duration_ms": 1611.97,
+    "status_code_counts": {
+      "200": 660
+    },
+    "service_summary": {
+      "deeplabv3_video_segmentation": {
+        "submitted": 410,
+        "success": 410,
+        "violations": 410,
+        "avg_queue_delay_ms": 184.06,
+        "avg_processing_time_ms": 180.0,
+        "slo_violation_rate": 1.0,
+        "server_distribution": {
+          "server1": 204,
+          "server2": 206
+        }
+      },
+      "unet_video_segmentation": {
+        "submitted": 164,
+        "success": 164,
+        "violations": 10,
+        "avg_queue_delay_ms": 8.19,
+        "avg_processing_time_ms": 55.0,
+        "slo_violation_rate": 0.061,
+        "server_distribution": {
+          "server0": 164
+        }
+      },
+      "resnet50_image_classification": {
+        "submitted": 58,
+        "success": 58,
+        "violations": 8,
+        "avg_queue_delay_ms": 245.37,
+        "avg_processing_time_ms": 60.0,
+        "slo_violation_rate": 0.1379,
+        "server_distribution": {
+          "server0": 48,
+          "server2": 10
+        }
+      },
+      "llama3_chat_generation": {
+        "submitted": 14,
+        "success": 14,
+        "violations": 0,
+        "avg_queue_delay_ms": 101.7,
+        "avg_processing_time_ms": 485.71,
+        "slo_violation_rate": 0.0,
+        "server_distribution": {
+          "server0": 14
+        }
+      },
+      "yolov10_image_detection": {
+        "submitted": 14,
+        "success": 14,
+        "violations": 4,
+        "avg_queue_delay_ms": 541.81,
+        "avg_processing_time_ms": 220.0,
+        "slo_violation_rate": 0.2857,
+        "server_distribution": {
+          "server0": 10,
+          "server2": 4
+        }
+      }
+    },
+    "runs": [
+      {
+        "submitted": 330,
+        "elapsed_seconds": 7.828,
+        "requests_per_second": 42.157,
+        "goodput_rps": 14.563,
+        "success_count": 330,
+        "good_count": 114,
+        "violation_count": 216,
+        "slo_violation_rate": 0.6545,
+        "avg_duration_ms": 350.9,
+        "p50_duration_ms": 296.89,
+        "p99_duration_ms": 1597.53,
+        "status_code_counts": {
+          "200": 330
+        },
+        "service_summary": {
+          "deeplabv3_video_segmentation": {
+            "submitted": 205,
+            "success": 205,
+            "violations": 205,
+            "server_distribution": {
+              "server1": 102,
+              "server2": 103
+            },
+            "avg_queue_delay_ms": 184.14,
+            "avg_processing_time_ms": 180.0,
+            "slo_violation_rate": 1.0
+          },
+          "unet_video_segmentation": {
+            "submitted": 82,
+            "success": 82,
+            "violations": 5,
+            "server_distribution": {
+              "server0": 82
+            },
+            "avg_queue_delay_ms": 7.69,
+            "avg_processing_time_ms": 55.0,
+            "slo_violation_rate": 0.061
+          },
+          "resnet50_image_classification": {
+            "submitted": 29,
+            "success": 29,
+            "violations": 4,
+            "server_distribution": {
+              "server0": 24,
+              "server2": 5
+            },
+            "avg_queue_delay_ms": 244.5,
+            "avg_processing_time_ms": 60.0,
+            "slo_violation_rate": 0.1379
+          },
+          "llama3_chat_generation": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 7
+            },
+            "avg_queue_delay_ms": 101.46,
+            "avg_processing_time_ms": 485.71,
+            "slo_violation_rate": 0.0
+          },
+          "yolov10_image_detection": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 2,
+            "server_distribution": {
+              "server0": 5,
+              "server2": 2
+            },
+            "avg_queue_delay_ms": 534.64,
+            "avg_processing_time_ms": 220.0,
+            "slo_violation_rate": 0.2857
+          }
+        },
+        "scheduler_metrics": {
+          "scheduler": "127.0.0.1:9100",
+          "placement_mode": "static",
+          "placement_plan_file": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\local_r1\\trace_placement.json",
+          "plan": {
+            "objective_value": 2911.8066666666664,
+            "window_seconds": 60.0,
+            "placements": [
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server1"
+                ],
+                "primary_server": "server1",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "llama3_chat_generation",
+                "server_ids": [
+                  "server0",
+                  "server1"
+                ],
+                "primary_server": "server0",
+                "stage": "static-group"
+              }
+            ],
+            "server_service_map": {
+              "server0": [
+                "llama3_chat_generation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server2": [
+                "deeplabv3_video_segmentation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server1": [
+                "deeplabv3_video_segmentation",
+                "llama3_chat_generation"
+              ]
+            }
+          },
+          "server_credits": {
+            "server0": 32,
+            "server1": 1,
+            "server2": 1
+          },
+          "server_violation_estimates": {
+            "server0": 0.0006576447094558765,
+            "server1": 0.9999999999999238,
+            "server2": 0.8593749999999923
+          },
+          "per_service_queue": {},
+          "total_submitted": 0,
+          "total_completed": 0,
+          "total_violations": 0,
+          "total_failed": 0
+        },
+        "server_metrics": {
+          "server0": {
+            "server": "server0",
+            "plan_version": "1775743868.695469",
+            "loaded_services": [
+              "llama3_chat_generation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 32,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 118,
+            "total_batches": 118,
+            "success_requests": 113,
+            "violation_requests": 5,
+            "average_queue_delay_ms": 26.450235964888233,
+            "per_service_metrics": {
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.7332893337165372,
+                "total_enqueued": 82,
+                "total_processed": 82,
+                "total_violations": 5
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 11.972060279703529,
+                "total_enqueued": 24,
+                "total_processed": 24,
+                "total_violations": 0
+              },
+              "llama3_chat_generation": {
+                "queued": 0,
+                "ewma_delay_ms": 63.5958079893887,
+                "total_enqueued": 7,
+                "total_processed": 7,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 55.784799427092075,
+                "total_enqueued": 5,
+                "total_processed": 5,
+                "total_violations": 0
+              }
+            }
+          },
+          "server1": {
+            "server": "server1",
+            "plan_version": "1775743868.695469",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "llama3_chat_generation"
+            ],
+            "credit_pool": 1,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 102,
+            "total_batches": 102,
+            "success_requests": 0,
+            "violation_requests": 102,
+            "average_queue_delay_ms": 179.0843500810511,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 316.38025477734,
+                "total_enqueued": 102,
+                "total_processed": 102,
+                "total_violations": 102
+              }
+            }
+          },
+          "server2": {
+            "server": "server2",
+            "plan_version": "1775743868.695469",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 1,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 110,
+            "total_batches": 110,
+            "success_requests": 1,
+            "violation_requests": 109,
+            "average_queue_delay_ms": 259.4139315865257,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 273.37526680786516,
+                "total_enqueued": 103,
+                "total_processed": 103,
+                "total_violations": 103
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 436.05501115322113,
+                "total_enqueued": 2,
+                "total_processed": 2,
+                "total_violations": 2
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 625.2237112274765,
+                "total_enqueued": 5,
+                "total_processed": 5,
+                "total_violations": 4
+              }
+            }
+          }
+        },
+        "experiment": {
+          "policy": "local",
+          "config_dir": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\local_r1",
+          "planned_events": 330,
+          "max_workers": 32
+        }
+      },
+      {
+        "submitted": 330,
+        "elapsed_seconds": 7.833,
+        "requests_per_second": 42.129,
+        "goodput_rps": 14.554,
+        "success_count": 330,
+        "good_count": 114,
+        "violation_count": 216,
+        "slo_violation_rate": 0.6545,
+        "avg_duration_ms": 360.88,
+        "p50_duration_ms": 292.16,
+        "p99_duration_ms": 1626.41,
+        "status_code_counts": {
+          "200": 330
+        },
+        "service_summary": {
+          "deeplabv3_video_segmentation": {
+            "submitted": 205,
+            "success": 205,
+            "violations": 205,
+            "server_distribution": {
+              "server2": 103,
+              "server1": 102
+            },
+            "avg_queue_delay_ms": 183.98,
+            "avg_processing_time_ms": 180.0,
+            "slo_violation_rate": 1.0
+          },
+          "unet_video_segmentation": {
+            "submitted": 82,
+            "success": 82,
+            "violations": 5,
+            "server_distribution": {
+              "server0": 82
+            },
+            "avg_queue_delay_ms": 8.69,
+            "avg_processing_time_ms": 55.0,
+            "slo_violation_rate": 0.061
+          },
+          "resnet50_image_classification": {
+            "submitted": 29,
+            "success": 29,
+            "violations": 4,
+            "server_distribution": {
+              "server0": 24,
+              "server2": 5
+            },
+            "avg_queue_delay_ms": 246.24,
+            "avg_processing_time_ms": 60.0,
+            "slo_violation_rate": 0.1379
+          },
+          "llama3_chat_generation": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 7
+            },
+            "avg_queue_delay_ms": 101.95,
+            "avg_processing_time_ms": 485.71,
+            "slo_violation_rate": 0.0
+          },
+          "yolov10_image_detection": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 2,
+            "server_distribution": {
+              "server0": 5,
+              "server2": 2
+            },
+            "avg_queue_delay_ms": 548.99,
+            "avg_processing_time_ms": 220.0,
+            "slo_violation_rate": 0.2857
+          }
+        },
+        "scheduler_metrics": {
+          "scheduler": "127.0.0.1:9400",
+          "placement_mode": "static",
+          "placement_plan_file": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\local_r2\\trace_placement.json",
+          "plan": {
+            "objective_value": 2911.8066666666664,
+            "window_seconds": 60.0,
+            "placements": [
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server1"
+                ],
+                "primary_server": "server1",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "llama3_chat_generation",
+                "server_ids": [
+                  "server0",
+                  "server1"
+                ],
+                "primary_server": "server0",
+                "stage": "static-group"
+              }
+            ],
+            "server_service_map": {
+              "server0": [
+                "llama3_chat_generation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server2": [
+                "deeplabv3_video_segmentation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server1": [
+                "deeplabv3_video_segmentation",
+                "llama3_chat_generation"
+              ]
+            }
+          },
+          "server_credits": {
+            "server0": 32,
+            "server1": 1,
+            "server2": 1
+          },
+          "server_violation_estimates": {
+            "server0": 0.0011435166692062365,
+            "server1": 0.9999999999999238,
+            "server2": 0.8593749999999923
+          },
+          "per_service_queue": {},
+          "total_submitted": 0,
+          "total_completed": 0,
+          "total_violations": 0,
+          "total_failed": 0
+        },
+        "server_metrics": {
+          "server0": {
+            "server": "server0",
+            "plan_version": "1775743882.6408396",
+            "loaded_services": [
+              "llama3_chat_generation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 32,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 118,
+            "total_batches": 118,
+            "success_requests": 113,
+            "violation_requests": 5,
+            "average_queue_delay_ms": 28.123340364229882,
+            "per_service_metrics": {
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.5698213846838942,
+                "total_enqueued": 82,
+                "total_processed": 82,
+                "total_violations": 5
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 15.03356823466469,
+                "total_enqueued": 24,
+                "total_processed": 24,
+                "total_violations": 0
+              },
+              "llama3_chat_generation": {
+                "queued": 0,
+                "ewma_delay_ms": 64.66437547814267,
+                "total_enqueued": 7,
+                "total_processed": 7,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 55.706810590177774,
+                "total_enqueued": 5,
+                "total_processed": 5,
+                "total_violations": 0
+              }
+            }
+          },
+          "server1": {
+            "server": "server1",
+            "plan_version": "1775743882.6408396",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "llama3_chat_generation"
+            ],
+            "credit_pool": 1,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 102,
+            "total_batches": 102,
+            "success_requests": 0,
+            "violation_requests": 102,
+            "average_queue_delay_ms": 176.39392731236475,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 309.3232289438141,
+                "total_enqueued": 102,
+                "total_processed": 102,
+                "total_violations": 102
+              }
+            }
+          },
+          "server2": {
+            "server": "server2",
+            "plan_version": "1775743882.6408396",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 1,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 110,
+            "total_batches": 110,
+            "success_requests": 1,
+            "violation_requests": 109,
+            "average_queue_delay_ms": 261.95390874689275,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 268.7527934329111,
+                "total_enqueued": 103,
+                "total_processed": 103,
+                "total_violations": 103
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 450.0603926181793,
+                "total_enqueued": 2,
+                "total_processed": 2,
+                "total_violations": 2
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 615.6456443258376,
+                "total_enqueued": 5,
+                "total_processed": 5,
+                "total_violations": 4
+              }
+            }
+          }
+        },
+        "experiment": {
+          "policy": "local",
+          "config_dir": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\local_r2",
+          "planned_events": 330,
+          "max_workers": 32
+        }
+      }
+    ],
+    "requests_per_second": 42.143,
+    "goodput_rps": 14.558,
+    "slo_violation_rate": 0.6545
+  },
+  "alpaserve": {
+    "submitted": 660,
+    "elapsed_seconds": 17.867,
+    "success_count": 660,
+    "good_count": 72,
+    "violation_count": 588,
+    "avg_duration_ms": 641.05,
+    "p50_duration_ms": 647.55,
+    "p99_duration_ms": 1849.83,
+    "status_code_counts": {
+      "200": 660
+    },
+    "service_summary": {
+      "deeplabv3_video_segmentation": {
+        "submitted": 410,
+        "success": 410,
+        "violations": 410,
+        "avg_queue_delay_ms": 59.59,
+        "avg_processing_time_ms": 180.0,
+        "slo_violation_rate": 1.0,
+        "server_distribution": {
+          "server2": 204,
+          "server1": 206
+        }
+      },
+      "resnet50_image_classification": {
+        "submitted": 58,
+        "success": 58,
+        "violations": 18,
+        "avg_queue_delay_ms": 433.14,
+        "avg_processing_time_ms": 60.0,
+        "slo_violation_rate": 0.3103,
+        "server_distribution": {
+          "server0": 30,
+          "server2": 28
+        }
+      },
+      "unet_video_segmentation": {
+        "submitted": 164,
+        "success": 164,
+        "violations": 154,
+        "avg_queue_delay_ms": 65.18,
+        "avg_processing_time_ms": 55.0,
+        "slo_violation_rate": 0.939,
+        "server_distribution": {
+          "server0": 82,
+          "server2": 82
+        }
+      },
+      "yolov10_image_detection": {
+        "submitted": 14,
+        "success": 14,
+        "violations": 6,
+        "avg_queue_delay_ms": 702.73,
+        "avg_processing_time_ms": 220.0,
+        "slo_violation_rate": 0.4286,
+        "server_distribution": {
+          "server0": 8,
+          "server2": 6
+        }
+      },
+      "llama3_chat_generation": {
+        "submitted": 14,
+        "success": 14,
+        "violations": 0,
+        "avg_queue_delay_ms": 9.73,
+        "avg_processing_time_ms": 485.71,
+        "slo_violation_rate": 0.0,
+        "server_distribution": {
+          "server0": 14
+        }
+      }
+    },
+    "runs": [
+      {
+        "submitted": 330,
+        "elapsed_seconds": 8.891,
+        "requests_per_second": 37.117,
+        "goodput_rps": 4.049,
+        "success_count": 330,
+        "good_count": 36,
+        "violation_count": 294,
+        "slo_violation_rate": 0.8909,
+        "avg_duration_ms": 634.44,
+        "p50_duration_ms": 642.77,
+        "p99_duration_ms": 1856.91,
+        "status_code_counts": {
+          "200": 330
+        },
+        "service_summary": {
+          "deeplabv3_video_segmentation": {
+            "submitted": 205,
+            "success": 205,
+            "violations": 205,
+            "server_distribution": {
+              "server2": 102,
+              "server1": 103
+            },
+            "avg_queue_delay_ms": 60.07,
+            "avg_processing_time_ms": 180.0,
+            "slo_violation_rate": 1.0
+          },
+          "resnet50_image_classification": {
+            "submitted": 29,
+            "success": 29,
+            "violations": 9,
+            "server_distribution": {
+              "server0": 15,
+              "server2": 14
+            },
+            "avg_queue_delay_ms": 425.72,
+            "avg_processing_time_ms": 60.0,
+            "slo_violation_rate": 0.3103
+          },
+          "unet_video_segmentation": {
+            "submitted": 82,
+            "success": 82,
+            "violations": 77,
+            "server_distribution": {
+              "server0": 41,
+              "server2": 41
+            },
+            "avg_queue_delay_ms": 64.44,
+            "avg_processing_time_ms": 55.0,
+            "slo_violation_rate": 0.939
+          },
+          "yolov10_image_detection": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 3,
+            "server_distribution": {
+              "server0": 4,
+              "server2": 3
+            },
+            "avg_queue_delay_ms": 698.97,
+            "avg_processing_time_ms": 220.0,
+            "slo_violation_rate": 0.4286
+          },
+          "llama3_chat_generation": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 7
+            },
+            "avg_queue_delay_ms": 10.36,
+            "avg_processing_time_ms": 485.71,
+            "slo_violation_rate": 0.0
+          }
+        },
+        "scheduler_metrics": {
+          "scheduler": "127.0.0.1:9300",
+          "placement_mode": "static",
+          "placement_plan_file": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\alpaserve_r1\\trace_placement.json",
+          "plan": {
+            "objective_value": 2911.8066666666664,
+            "window_seconds": 60.0,
+            "placements": [
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server1"
+                ],
+                "primary_server": "server1",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "llama3_chat_generation",
+                "server_ids": [
+                  "server0",
+                  "server1"
+                ],
+                "primary_server": "server0",
+                "stage": "static-group"
+              }
+            ],
+            "server_service_map": {
+              "server0": [
+                "llama3_chat_generation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server2": [
+                "deeplabv3_video_segmentation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server1": [
+                "deeplabv3_video_segmentation",
+                "llama3_chat_generation"
+              ]
+            }
+          },
+          "server_credits": {
+            "server0": 25,
+            "server1": 48,
+            "server2": 1
+          },
+          "server_violation_estimates": {
+            "server0": 0.3589830551365434,
+            "server1": 0.9999999999999998,
+            "server2": 0.3162897928234407
+          },
+          "per_service_queue": {
+            "deeplabv3_video_segmentation": 0,
+            "unet_video_segmentation": 0,
+            "resnet50_image_classification": 0,
+            "llama3_chat_generation": 0,
+            "yolov10_image_detection": 0
+          },
+          "total_submitted": 330,
+          "total_completed": 330,
+          "total_violations": 294,
+          "total_failed": 0
+        },
+        "server_metrics": {
+          "server0": {
+            "server": "server0",
+            "plan_version": "1775743896.5393713",
+            "loaded_services": [
+              "llama3_chat_generation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 25,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 67,
+            "total_batches": 67,
+            "success_requests": 30,
+            "violation_requests": 37,
+            "average_queue_delay_ms": 4.181829851065109,
+            "per_service_metrics": {
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.22486099618227173,
+                "total_enqueued": 41,
+                "total_processed": 41,
+                "total_violations": 37
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 2.5580773846100873,
+                "total_enqueued": 15,
+                "total_processed": 15,
+                "total_violations": 0
+              },
+              "llama3_chat_generation": {
+                "queued": 0,
+                "ewma_delay_ms": 5.666948173273354,
+                "total_enqueued": 7,
+                "total_processed": 7,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 0.0,
+                "total_enqueued": 4,
+                "total_processed": 4,
+                "total_violations": 0
+              }
+            }
+          },
+          "server1": {
+            "server": "server1",
+            "plan_version": "1775743896.5393713",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "llama3_chat_generation"
+            ],
+            "credit_pool": 48,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 103,
+            "total_batches": 103,
+            "success_requests": 0,
+            "violation_requests": 103,
+            "average_queue_delay_ms": 5.7744840973789255,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 3.0854842359143073,
+                "total_enqueued": 103,
+                "total_processed": 103,
+                "total_violations": 103
+              }
+            }
+          },
+          "server2": {
+            "server": "server2",
+            "plan_version": "1775743896.5393713",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 1,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 160,
+            "total_batches": 160,
+            "success_requests": 6,
+            "violation_requests": 154,
+            "average_queue_delay_ms": 212.71402388811111,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 196.52240031203743,
+                "total_enqueued": 102,
+                "total_processed": 102,
+                "total_violations": 102
+              },
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 188.6804012662344,
+                "total_enqueued": 41,
+                "total_processed": 41,
+                "total_violations": 40
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 797.7832529060901,
+                "total_enqueued": 14,
+                "total_processed": 14,
+                "total_violations": 9
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 621.5782954394817,
+                "total_enqueued": 3,
+                "total_processed": 3,
+                "total_violations": 3
+              }
+            }
+          }
+        },
+        "experiment": {
+          "policy": "alpaserve",
+          "config_dir": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\alpaserve_r1",
+          "planned_events": 330,
+          "max_workers": 32
+        }
+      },
+      {
+        "submitted": 330,
+        "elapsed_seconds": 8.976,
+        "requests_per_second": 36.764,
+        "goodput_rps": 4.011,
+        "success_count": 330,
+        "good_count": 36,
+        "violation_count": 294,
+        "slo_violation_rate": 0.8909,
+        "avg_duration_ms": 647.67,
+        "p50_duration_ms": 652.32,
+        "p99_duration_ms": 1842.75,
+        "status_code_counts": {
+          "200": 330
+        },
+        "service_summary": {
+          "unet_video_segmentation": {
+            "submitted": 82,
+            "success": 82,
+            "violations": 77,
+            "server_distribution": {
+              "server0": 41,
+              "server2": 41
+            },
+            "avg_queue_delay_ms": 65.92,
+            "avg_processing_time_ms": 55.0,
+            "slo_violation_rate": 0.939
+          },
+          "deeplabv3_video_segmentation": {
+            "submitted": 205,
+            "success": 205,
+            "violations": 205,
+            "server_distribution": {
+              "server2": 102,
+              "server1": 103
+            },
+            "avg_queue_delay_ms": 59.11,
+            "avg_processing_time_ms": 180.0,
+            "slo_violation_rate": 1.0
+          },
+          "llama3_chat_generation": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 7
+            },
+            "avg_queue_delay_ms": 9.1,
+            "avg_processing_time_ms": 485.71,
+            "slo_violation_rate": 0.0
+          },
+          "yolov10_image_detection": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 3,
+            "server_distribution": {
+              "server0": 4,
+              "server2": 3
+            },
+            "avg_queue_delay_ms": 706.48,
+            "avg_processing_time_ms": 220.0,
+            "slo_violation_rate": 0.4286
+          },
+          "resnet50_image_classification": {
+            "submitted": 29,
+            "success": 29,
+            "violations": 9,
+            "server_distribution": {
+              "server0": 15,
+              "server2": 14
+            },
+            "avg_queue_delay_ms": 440.55,
+            "avg_processing_time_ms": 60.0,
+            "slo_violation_rate": 0.3103
+          }
+        },
+        "scheduler_metrics": {
+          "scheduler": "127.0.0.1:9600",
+          "placement_mode": "static",
+          "placement_plan_file": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\alpaserve_r2\\trace_placement.json",
+          "plan": {
+            "objective_value": 2911.8066666666664,
+            "window_seconds": 60.0,
+            "placements": [
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server1"
+                ],
+                "primary_server": "server1",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "llama3_chat_generation",
+                "server_ids": [
+                  "server0",
+                  "server1"
+                ],
+                "primary_server": "server0",
+                "stage": "static-group"
+              }
+            ],
+            "server_service_map": {
+              "server0": [
+                "llama3_chat_generation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server2": [
+                "deeplabv3_video_segmentation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server1": [
+                "deeplabv3_video_segmentation",
+                "llama3_chat_generation"
+              ]
+            }
+          },
+          "server_credits": {
+            "server0": 25,
+            "server1": 48,
+            "server2": 1
+          },
+          "server_violation_estimates": {
+            "server0": 0.3719997987149345,
+            "server1": 0.9999999999999998,
+            "server2": 0.31640624999989025
+          },
+          "per_service_queue": {
+            "deeplabv3_video_segmentation": 0,
+            "unet_video_segmentation": 0,
+            "resnet50_image_classification": 0,
+            "llama3_chat_generation": 0,
+            "yolov10_image_detection": 0
+          },
+          "total_submitted": 330,
+          "total_completed": 330,
+          "total_violations": 294,
+          "total_failed": 0
+        },
+        "server_metrics": {
+          "server0": {
+            "server": "server0",
+            "plan_version": "1775743911.8082156",
+            "loaded_services": [
+              "llama3_chat_generation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 25,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 67,
+            "total_batches": 67,
+            "success_requests": 30,
+            "violation_requests": 37,
+            "average_queue_delay_ms": 3.6245566695483764,
+            "per_service_metrics": {
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.07004683010438546,
+                "total_enqueued": 41,
+                "total_processed": 41,
+                "total_violations": 37
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 2.3587676043598456,
+                "total_enqueued": 15,
+                "total_processed": 15,
+                "total_violations": 0
+              },
+              "llama3_chat_generation": {
+                "queued": 0,
+                "ewma_delay_ms": 5.014983989210799,
+                "total_enqueued": 7,
+                "total_processed": 7,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 0.0,
+                "total_enqueued": 4,
+                "total_processed": 4,
+                "total_violations": 0
+              }
+            }
+          },
+          "server1": {
+            "server": "server1",
+            "plan_version": "1775743911.8082156",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "llama3_chat_generation"
+            ],
+            "credit_pool": 48,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 103,
+            "total_batches": 103,
+            "success_requests": 0,
+            "violation_requests": 103,
+            "average_queue_delay_ms": 4.9743235689922445,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 3.0110143840674555,
+                "total_enqueued": 103,
+                "total_processed": 103,
+                "total_violations": 103
+              }
+            }
+          },
+          "server2": {
+            "server": "server2",
+            "plan_version": "1775743911.8082156",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 1,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 160,
+            "total_batches": 160,
+            "success_requests": 6,
+            "violation_requests": 154,
+            "average_queue_delay_ms": 215.95114916563034,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 192.56471251866998,
+                "total_enqueued": 102,
+                "total_processed": 102,
+                "total_violations": 102
+              },
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 201.87853287332368,
+                "total_enqueued": 41,
+                "total_processed": 41,
+                "total_violations": 40
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 800.5032393700361,
+                "total_enqueued": 14,
+                "total_processed": 14,
+                "total_violations": 9
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 624.6491038799286,
+                "total_enqueued": 3,
+                "total_processed": 3,
+                "total_violations": 3
+              }
+            }
+          }
+        },
+        "experiment": {
+          "policy": "alpaserve",
+          "config_dir": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\alpaserve_r2",
+          "planned_events": 330,
+          "max_workers": 32
+        }
+      }
+    ],
+    "requests_per_second": 36.94,
+    "goodput_rps": 4.03,
+    "slo_violation_rate": 0.8909
+  },
+  "farfly": {
+    "submitted": 660,
+    "elapsed_seconds": 16.792,
+    "success_count": 660,
+    "good_count": 149,
+    "violation_count": 511,
+    "avg_duration_ms": 626.12,
+    "p50_duration_ms": 625.04,
+    "p99_duration_ms": 1312.76,
+    "status_code_counts": {
+      "200": 660
+    },
+    "service_summary": {
+      "deeplabv3_video_segmentation": {
+        "submitted": 410,
+        "success": 410,
+        "violations": 364,
+        "avg_queue_delay_ms": 30.44,
+        "avg_processing_time_ms": 180.74,
+        "slo_violation_rate": 0.8878,
+        "server_distribution": {
+          "server2": 199,
+          "server1": 211
+        }
+      },
+      "yolov10_image_detection": {
+        "submitted": 14,
+        "success": 14,
+        "violations": 0,
+        "avg_queue_delay_ms": 15.64,
+        "avg_processing_time_ms": 220.0,
+        "slo_violation_rate": 0.0,
+        "server_distribution": {
+          "server0": 12,
+          "server2": 2
+        }
+      },
+      "resnet50_image_classification": {
+        "submitted": 58,
+        "success": 58,
+        "violations": 0,
+        "avg_queue_delay_ms": 10.64,
+        "avg_processing_time_ms": 60.0,
+        "slo_violation_rate": 0.0,
+        "server_distribution": {
+          "server0": 51,
+          "server2": 7
+        }
+      },
+      "unet_video_segmentation": {
+        "submitted": 164,
+        "success": 164,
+        "violations": 147,
+        "avg_queue_delay_ms": 298.83,
+        "avg_processing_time_ms": 55.0,
+        "slo_violation_rate": 0.8963,
+        "server_distribution": {
+          "server2": 79,
+          "server0": 85
+        }
+      },
+      "llama3_chat_generation": {
+        "submitted": 14,
+        "success": 14,
+        "violations": 0,
+        "avg_queue_delay_ms": 0.43,
+        "avg_processing_time_ms": 485.71,
+        "slo_violation_rate": 0.0,
+        "server_distribution": {
+          "server0": 14
+        }
+      }
+    },
+    "runs": [
+      {
+        "submitted": 330,
+        "elapsed_seconds": 8.526,
+        "requests_per_second": 38.704,
+        "goodput_rps": 8.679,
+        "success_count": 330,
+        "good_count": 74,
+        "violation_count": 256,
+        "slo_violation_rate": 0.7758,
+        "avg_duration_ms": 638.83,
+        "p50_duration_ms": 630.88,
+        "p99_duration_ms": 1358.08,
+        "status_code_counts": {
+          "200": 330
+        },
+        "service_summary": {
+          "deeplabv3_video_segmentation": {
+            "submitted": 205,
+            "success": 205,
+            "violations": 182,
+            "server_distribution": {
+              "server2": 101,
+              "server1": 104
+            },
+            "avg_queue_delay_ms": 31.1,
+            "avg_processing_time_ms": 180.49,
+            "slo_violation_rate": 0.8878
+          },
+          "yolov10_image_detection": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 6,
+              "server2": 1
+            },
+            "avg_queue_delay_ms": 16.71,
+            "avg_processing_time_ms": 220.0,
+            "slo_violation_rate": 0.0
+          },
+          "resnet50_image_classification": {
+            "submitted": 29,
+            "success": 29,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 25,
+              "server2": 4
+            },
+            "avg_queue_delay_ms": 12.01,
+            "avg_processing_time_ms": 60.0,
+            "slo_violation_rate": 0.0
+          },
+          "unet_video_segmentation": {
+            "submitted": 82,
+            "success": 82,
+            "violations": 74,
+            "server_distribution": {
+              "server2": 40,
+              "server0": 42
+            },
+            "avg_queue_delay_ms": 312.38,
+            "avg_processing_time_ms": 55.0,
+            "slo_violation_rate": 0.9024
+          },
+          "llama3_chat_generation": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 7
+            },
+            "avg_queue_delay_ms": 0.29,
+            "avg_processing_time_ms": 485.71,
+            "slo_violation_rate": 0.0
+          }
+        },
+        "scheduler_metrics": {
+          "scheduler": "127.0.0.1:9500",
+          "placement_mode": "static",
+          "placement_plan_file": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\farfly_r1\\trace_placement.json",
+          "plan": {
+            "objective_value": 5106.266644285223,
+            "window_seconds": 60.0,
+            "placements": [
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server1"
+                ],
+                "primary_server": "server1",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "llama3_chat_generation",
+                "server_ids": [
+                  "server0",
+                  "server1"
+                ],
+                "primary_server": "server0",
+                "stage": "static-group"
+              }
+            ],
+            "server_service_map": {
+              "server0": [
+                "llama3_chat_generation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server2": [
+                "deeplabv3_video_segmentation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server1": [
+                "deeplabv3_video_segmentation",
+                "llama3_chat_generation"
+              ]
+            }
+          },
+          "server_credits": {
+            "server0": 32,
+            "server1": 47,
+            "server2": 3
+          },
+          "server_violation_estimates": {
+            "server0": 0.3276148052740471,
+            "server1": 0.9860403776119273,
+            "server2": 0.9966315219708229
+          },
+          "per_service_queue": {
+            "deeplabv3_video_segmentation": 0,
+            "unet_video_segmentation": 0,
+            "resnet50_image_classification": 0,
+            "llama3_chat_generation": 0,
+            "yolov10_image_detection": 0
+          },
+          "total_submitted": 330,
+          "total_completed": 330,
+          "total_violations": 256,
+          "total_failed": 0
+        },
+        "server_metrics": {
+          "server0": {
+            "server": "server0",
+            "plan_version": "1775743927.7128222",
+            "loaded_services": [
+              "llama3_chat_generation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 32,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 80,
+            "total_batches": 80,
+            "success_requests": 45,
+            "violation_requests": 35,
+            "average_queue_delay_ms": 2.0429223775863647,
+            "per_service_metrics": {
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.6555201568101587,
+                "total_enqueued": 42,
+                "total_processed": 42,
+                "total_violations": 35
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 1.3250115937824711,
+                "total_enqueued": 25,
+                "total_processed": 25,
+                "total_violations": 0
+              },
+              "llama3_chat_generation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.2063428784083575,
+                "total_enqueued": 7,
+                "total_processed": 7,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 1.5301626920700073,
+                "total_enqueued": 6,
+                "total_processed": 6,
+                "total_violations": 0
+              }
+            }
+          },
+          "server1": {
+            "server": "server1",
+            "plan_version": "1775743927.7128222",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "llama3_chat_generation"
+            ],
+            "credit_pool": 48,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 104,
+            "total_batches": 102,
+            "success_requests": 13,
+            "violation_requests": 91,
+            "average_queue_delay_ms": 18.10310634912229,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 4.266848699730201,
+                "total_enqueued": 102,
+                "total_processed": 102,
+                "total_violations": 91
+              }
+            }
+          },
+          "server2": {
+            "server": "server2",
+            "plan_version": "1775743927.7128222",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 3,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 146,
+            "total_batches": 145,
+            "success_requests": 16,
+            "violation_requests": 130,
+            "average_queue_delay_ms": 209.75095156965585,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 44.14894396672124,
+                "total_enqueued": 100,
+                "total_processed": 100,
+                "total_violations": 91
+              },
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 554.5931777831246,
+                "total_enqueued": 40,
+                "total_processed": 40,
+                "total_violations": 39
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 31.34551300406456,
+                "total_enqueued": 4,
+                "total_processed": 4,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 15.749788284301758,
+                "total_enqueued": 1,
+                "total_processed": 1,
+                "total_violations": 0
+              }
+            }
+          }
+        },
+        "experiment": {
+          "policy": "farfly",
+          "config_dir": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\farfly_r1",
+          "planned_events": 330,
+          "max_workers": 32
+        }
+      },
+      {
+        "submitted": 330,
+        "elapsed_seconds": 8.266,
+        "requests_per_second": 39.924,
+        "goodput_rps": 9.074,
+        "success_count": 330,
+        "good_count": 75,
+        "violation_count": 255,
+        "slo_violation_rate": 0.7727,
+        "avg_duration_ms": 613.41,
+        "p50_duration_ms": 619.2,
+        "p99_duration_ms": 1267.45,
+        "status_code_counts": {
+          "200": 330
+        },
+        "service_summary": {
+          "resnet50_image_classification": {
+            "submitted": 29,
+            "success": 29,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 26,
+              "server2": 3
+            },
+            "avg_queue_delay_ms": 9.27,
+            "avg_processing_time_ms": 60.0,
+            "slo_violation_rate": 0.0
+          },
+          "deeplabv3_video_segmentation": {
+            "submitted": 205,
+            "success": 205,
+            "violations": 182,
+            "server_distribution": {
+              "server2": 98,
+              "server1": 107
+            },
+            "avg_queue_delay_ms": 29.77,
+            "avg_processing_time_ms": 180.98,
+            "slo_violation_rate": 0.8878
+          },
+          "yolov10_image_detection": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server2": 1,
+              "server0": 6
+            },
+            "avg_queue_delay_ms": 14.58,
+            "avg_processing_time_ms": 220.0,
+            "slo_violation_rate": 0.0
+          },
+          "unet_video_segmentation": {
+            "submitted": 82,
+            "success": 82,
+            "violations": 73,
+            "server_distribution": {
+              "server2": 39,
+              "server0": 43
+            },
+            "avg_queue_delay_ms": 285.28,
+            "avg_processing_time_ms": 55.0,
+            "slo_violation_rate": 0.8902
+          },
+          "llama3_chat_generation": {
+            "submitted": 7,
+            "success": 7,
+            "violations": 0,
+            "server_distribution": {
+              "server0": 7
+            },
+            "avg_queue_delay_ms": 0.57,
+            "avg_processing_time_ms": 485.71,
+            "slo_violation_rate": 0.0
+          }
+        },
+        "scheduler_metrics": {
+          "scheduler": "127.0.0.1:9800",
+          "placement_mode": "static",
+          "placement_plan_file": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\farfly_r2\\trace_placement.json",
+          "plan": {
+            "objective_value": 5106.266644285223,
+            "window_seconds": 60.0,
+            "placements": [
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "resnet50_image_classification",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "yolov10_image_detection",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server1"
+                ],
+                "primary_server": "server1",
+                "stage": "static"
+              },
+              {
+                "service": "deeplabv3_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server0"
+                ],
+                "primary_server": "server0",
+                "stage": "static"
+              },
+              {
+                "service": "unet_video_segmentation",
+                "server_ids": [
+                  "server2"
+                ],
+                "primary_server": "server2",
+                "stage": "static"
+              },
+              {
+                "service": "llama3_chat_generation",
+                "server_ids": [
+                  "server0",
+                  "server1"
+                ],
+                "primary_server": "server0",
+                "stage": "static-group"
+              }
+            ],
+            "server_service_map": {
+              "server0": [
+                "llama3_chat_generation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server2": [
+                "deeplabv3_video_segmentation",
+                "resnet50_image_classification",
+                "unet_video_segmentation",
+                "yolov10_image_detection"
+              ],
+              "server1": [
+                "deeplabv3_video_segmentation",
+                "llama3_chat_generation"
+              ]
+            }
+          },
+          "server_credits": {
+            "server0": 32,
+            "server1": 35,
+            "server2": 1
+          },
+          "server_violation_estimates": {
+            "server0": 0.36849305081544886,
+            "server1": 0.9862762322832338,
+            "server2": 0.9883253738912398
+          },
+          "per_service_queue": {
+            "deeplabv3_video_segmentation": 0,
+            "unet_video_segmentation": 0,
+            "resnet50_image_classification": 0,
+            "llama3_chat_generation": 0,
+            "yolov10_image_detection": 0
+          },
+          "total_submitted": 330,
+          "total_completed": 330,
+          "total_violations": 255,
+          "total_failed": 0
+        },
+        "server_metrics": {
+          "server0": {
+            "server": "server0",
+            "plan_version": "1775743941.7634516",
+            "loaded_services": [
+              "llama3_chat_generation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 32,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 82,
+            "total_batches": 82,
+            "success_requests": 47,
+            "violation_requests": 35,
+            "average_queue_delay_ms": 2.824434419957603,
+            "per_service_metrics": {
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.518331980792066,
+                "total_enqueued": 43,
+                "total_processed": 43,
+                "total_violations": 35
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 1.366951040174728,
+                "total_enqueued": 26,
+                "total_processed": 26,
+                "total_violations": 0
+              },
+              "llama3_chat_generation": {
+                "queued": 0,
+                "ewma_delay_ms": 0.30984909251220527,
+                "total_enqueued": 7,
+                "total_processed": 7,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 3.6367917882688343,
+                "total_enqueued": 6,
+                "total_processed": 6,
+                "total_violations": 0
+              }
+            }
+          },
+          "server1": {
+            "server": "server1",
+            "plan_version": "1775743941.7634516",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "llama3_chat_generation"
+            ],
+            "credit_pool": 35,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 107,
+            "total_batches": 102,
+            "success_requests": 13,
+            "violation_requests": 94,
+            "average_queue_delay_ms": 19.478683378182204,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 36.782370297807276,
+                "total_enqueued": 102,
+                "total_processed": 102,
+                "total_violations": 94
+              }
+            }
+          },
+          "server2": {
+            "server": "server2",
+            "plan_version": "1775743941.7634516",
+            "loaded_services": [
+              "deeplabv3_video_segmentation",
+              "resnet50_image_classification",
+              "unet_video_segmentation",
+              "yolov10_image_detection"
+            ],
+            "credit_pool": 1,
+            "active_batches": 0,
+            "queued_batches": 0,
+            "total_requests": 141,
+            "total_batches": 140,
+            "success_requests": 15,
+            "violation_requests": 126,
+            "average_queue_delay_ms": 195.96532072339738,
+            "per_service_metrics": {
+              "deeplabv3_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 35.415843577926196,
+                "total_enqueued": 97,
+                "total_processed": 97,
+                "total_violations": 88
+              },
+              "unet_video_segmentation": {
+                "queued": 0,
+                "ewma_delay_ms": 503.66458950034814,
+                "total_enqueued": 39,
+                "total_processed": 39,
+                "total_violations": 38
+              },
+              "resnet50_image_classification": {
+                "queued": 0,
+                "ewma_delay_ms": 20.65274602174759,
+                "total_enqueued": 3,
+                "total_processed": 3,
+                "total_violations": 0
+              },
+              "yolov10_image_detection": {
+                "queued": 0,
+                "ewma_delay_ms": 10.955822467803955,
+                "total_enqueued": 1,
+                "total_processed": 1,
+                "total_violations": 0
+              }
+            }
+          }
+        },
+        "experiment": {
+          "policy": "farfly",
+          "config_dir": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\paper_configs\\farfly_r2",
+          "planned_events": 330,
+          "max_workers": 32
+        }
+      }
+    ],
+    "requests_per_second": 39.304,
+    "goodput_rps": 8.873,
+    "slo_violation_rate": 0.7742
+  },
+  "comparison": {
+    "farfly_over_alpaserve_goodput_ratio": 2.202,
+    "latency_scale": 1.0,
+    "frequency_scale": 0.57
+  }
+}

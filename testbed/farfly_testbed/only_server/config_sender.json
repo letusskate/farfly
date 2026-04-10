@@ -1,0 +1,27 @@
+{
+    "scheduler": {
+        "ip": "10.10.60.22",
+        "port": 5100,
+        "submit_path": "/submit"
+    },
+    "servers": [
+        {
+            "name": "server0",
+            "ip": "10.10.60.22",
+            "port": 5000
+        },
+        {
+            "name": "server1",
+            "ip": "10.10.60.29",
+            "port": 5001
+        },
+        {
+            "name": "server2",
+            "ip": "10.10.60.24",
+            "port": 5002
+        }
+    ],
+    "max_offload_count": 3,
+    "timeout_seconds": 30,
+    "max_concurrent_tasks": 3
+}

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package farfly;
+
+message Empty {}
+
+message JsonRequest {
+  string json_payload = 1;
+}
+
+message JsonReply {
+  int32 status_code = 1;
+  string json_payload = 2;
+}
+
+service FarflySchedulerService {
+  rpc Health(Empty) returns (JsonReply);
+  rpc Metrics(Empty) returns (JsonReply);
+  rpc Plan(Empty) returns (JsonReply);
+  rpc RecomputePlan(Empty) returns (JsonReply);
+  rpc ReloadPlan(Empty) returns (JsonReply);
+  rpc Submit(JsonRequest) returns (JsonReply);
+  rpc ReportCredits(JsonRequest) returns (JsonReply);
+}
+
+service ServerService {
+  rpc Health(Empty) returns (JsonReply);
+  rpc Metrics(Empty) returns (JsonReply);
+  rpc UpdatePlacement(JsonRequest) returns (JsonReply);
+  rpc ExecuteBatch(JsonRequest) returns (JsonReply);
+}

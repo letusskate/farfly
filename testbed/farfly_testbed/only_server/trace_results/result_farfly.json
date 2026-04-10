@@ -1,0 +1,463 @@
+{
+  "submitted": 2372,
+  "elapsed_seconds": 31.32,
+  "requests_per_second": 75.73,
+  "success_count": 2372,
+  "failure_count": 0,
+  "violation_count": 79,
+  "slo_violation_rate": 0.0333,
+  "avg_duration_ms": 249.71,
+  "p50_duration_ms": 223.27,
+  "p99_duration_ms": 683.8,
+  "status_code_counts": {
+    "200": 2372
+  },
+  "service_summary": {
+    "trace_fast_frequency": {
+      "task_type": "frequency",
+      "submitted": 688,
+      "success": 688,
+      "violations": 19,
+      "server_distribution": {
+        "server0": 309,
+        "server1": 379
+      },
+      "avg_queue_delay_ms": 14.53,
+      "avg_processing_time_ms": 15.1,
+      "avg_duration_ms": 135.39,
+      "p50_duration_ms": 111.37,
+      "p99_duration_ms": 441.06,
+      "p50_queue_delay_ms": 1.0,
+      "p99_queue_delay_ms": 95.0,
+      "slo_violation_rate": 0.0276
+    },
+    "trace_medium_frequency": {
+      "task_type": "frequency",
+      "submitted": 768,
+      "success": 768,
+      "violations": 60,
+      "server_distribution": {
+        "server0": 358,
+        "server1": 410
+      },
+      "avg_queue_delay_ms": 93.74,
+      "avg_processing_time_ms": 80.41,
+      "avg_duration_ms": 286.78,
+      "p50_duration_ms": 224.32,
+      "p99_duration_ms": 760.58,
+      "p50_queue_delay_ms": 1.0,
+      "p99_queue_delay_ms": 496.47,
+      "slo_violation_rate": 0.0781
+    },
+    "trace_slow_frequency": {
+      "task_type": "frequency",
+      "submitted": 788,
+      "success": 788,
+      "violations": 0,
+      "server_distribution": {
+        "server2": 423,
+        "server0": 365
+      },
+      "avg_queue_delay_ms": 27.23,
+      "avg_processing_time_ms": 201.13,
+      "avg_duration_ms": 327.93,
+      "p50_duration_ms": 299.58,
+      "p99_duration_ms": 647.75,
+      "p50_queue_delay_ms": 13.43,
+      "p99_queue_delay_ms": 138.31,
+      "slo_violation_rate": 0.0
+    },
+    "trace_fast_latency": {
+      "task_type": "latency",
+      "submitted": 37,
+      "success": 37,
+      "violations": 0,
+      "server_distribution": {
+        "server1": 19,
+        "server2": 18
+      },
+      "avg_queue_delay_ms": 6.27,
+      "avg_processing_time_ms": 15.0,
+      "avg_duration_ms": 110.9,
+      "p50_duration_ms": 78.23,
+      "p99_duration_ms": 408.86,
+      "p50_queue_delay_ms": 0.0,
+      "p99_queue_delay_ms": 105.0,
+      "slo_violation_rate": 0.0
+    },
+    "trace_medium_latency": {
+      "task_type": "latency",
+      "submitted": 84,
+      "success": 84,
+      "violations": 0,
+      "server_distribution": {
+        "server1": 41,
+        "server2": 43
+      },
+      "avg_queue_delay_ms": 9.8,
+      "avg_processing_time_ms": 80.0,
+      "avg_duration_ms": 162.21,
+      "p50_duration_ms": 131.96,
+      "p99_duration_ms": 519.68,
+      "p50_queue_delay_ms": 0.0,
+      "p99_queue_delay_ms": 101.73,
+      "slo_violation_rate": 0.0
+    },
+    "trace_heavy_latency": {
+      "task_type": "latency",
+      "submitted": 2,
+      "success": 2,
+      "violations": 0,
+      "server_distribution": {
+        "server0": 2
+      },
+      "avg_queue_delay_ms": 37.98,
+      "avg_processing_time_ms": 285.71,
+      "avg_duration_ms": 535.57,
+      "p50_duration_ms": 574.68,
+      "p99_duration_ms": 574.68,
+      "p50_queue_delay_ms": 61.55,
+      "p99_queue_delay_ms": 61.55,
+      "slo_violation_rate": 0.0
+    },
+    "trace_slow_latency": {
+      "task_type": "latency",
+      "submitted": 5,
+      "success": 5,
+      "violations": 0,
+      "server_distribution": {
+        "server0": 3,
+        "server1": 2
+      },
+      "avg_queue_delay_ms": 9.02,
+      "avg_processing_time_ms": 200.0,
+      "avg_duration_ms": 343.69,
+      "p50_duration_ms": 328.39,
+      "p99_duration_ms": 483.44,
+      "p50_queue_delay_ms": 1.0,
+      "p99_queue_delay_ms": 31.0,
+      "slo_violation_rate": 0.0
+    }
+  },
+  "experiment": {
+    "config_dir": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\trace_configs\\farfly",
+    "total_events": 2372,
+    "max_workers": 64
+  },
+  "scheduler_metrics": {
+    "scheduler": "127.0.0.1:8100",
+    "placement_mode": "static",
+    "placement_plan_file": "C:\\Users\\15770\\Documents\\work_space\\python\\PriorityScheduleCode\\testbed\\farfly_testbed\\only_server\\trace_configs\\farfly\\trace_placement.json",
+    "plan": {
+      "objective_value": 6013.959999999999,
+      "window_seconds": 60.0,
+      "placements": [
+        {
+          "service": "trace_fast_frequency",
+          "server_ids": [
+            "server0"
+          ],
+          "primary_server": "server0",
+          "stage": "static"
+        },
+        {
+          "service": "trace_fast_frequency",
+          "server_ids": [
+            "server1"
+          ],
+          "primary_server": "server1",
+          "stage": "static"
+        },
+        {
+          "service": "trace_fast_latency",
+          "server_ids": [
+            "server1"
+          ],
+          "primary_server": "server1",
+          "stage": "static"
+        },
+        {
+          "service": "trace_fast_latency",
+          "server_ids": [
+            "server2"
+          ],
+          "primary_server": "server2",
+          "stage": "static"
+        },
+        {
+          "service": "trace_heavy_latency",
+          "server_ids": [
+            "server0",
+            "server1"
+          ],
+          "primary_server": "server0",
+          "stage": "static-group"
+        },
+        {
+          "service": "trace_medium_frequency",
+          "server_ids": [
+            "server0"
+          ],
+          "primary_server": "server0",
+          "stage": "static"
+        },
+        {
+          "service": "trace_medium_frequency",
+          "server_ids": [
+            "server1"
+          ],
+          "primary_server": "server1",
+          "stage": "static"
+        },
+        {
+          "service": "trace_medium_latency",
+          "server_ids": [
+            "server1"
+          ],
+          "primary_server": "server1",
+          "stage": "static"
+        },
+        {
+          "service": "trace_medium_latency",
+          "server_ids": [
+            "server2"
+          ],
+          "primary_server": "server2",
+          "stage": "static"
+        },
+        {
+          "service": "trace_slow_frequency",
+          "server_ids": [
+            "server2"
+          ],
+          "primary_server": "server2",
+          "stage": "static"
+        },
+        {
+          "service": "trace_slow_frequency",
+          "server_ids": [
+            "server0"
+          ],
+          "primary_server": "server0",
+          "stage": "static"
+        },
+        {
+          "service": "trace_slow_latency",
+          "server_ids": [
+            "server0"
+          ],
+          "primary_server": "server0",
+          "stage": "static"
+        },
+        {
+          "service": "trace_slow_latency",
+          "server_ids": [
+            "server1"
+          ],
+          "primary_server": "server1",
+          "stage": "static"
+        }
+      ],
+      "server_service_map": {
+        "server0": [
+          "trace_fast_frequency",
+          "trace_heavy_latency",
+          "trace_medium_frequency",
+          "trace_slow_frequency",
+          "trace_slow_latency"
+        ],
+        "server1": [
+          "trace_fast_frequency",
+          "trace_fast_latency",
+          "trace_heavy_latency",
+          "trace_medium_frequency",
+          "trace_medium_latency",
+          "trace_slow_latency"
+        ],
+        "server2": [
+          "trace_fast_latency",
+          "trace_medium_latency",
+          "trace_slow_frequency"
+        ]
+      }
+    },
+    "server_credits": {
+      "server0": 1,
+      "server1": 28,
+      "server2": 28
+    },
+    "server_violation_estimates": {
+      "server0": 0.0009553682902109865,
+      "server1": 0.00037070176534766635,
+      "server2": 0.0
+    },
+    "per_service_queue": {
+      "trace_fast_frequency": 0,
+      "trace_slow_frequency": 0,
+      "trace_medium_frequency": 0,
+      "trace_fast_latency": 0,
+      "trace_medium_latency": 0,
+      "trace_heavy_latency": 0,
+      "trace_slow_latency": 0
+    },
+    "total_submitted": 2372,
+    "total_completed": 2372,
+    "total_violations": 79,
+    "total_failed": 0
+  },
+  "server_metrics": {
+    "server0": {
+      "server": "server0",
+      "plan_version": "1775479944.9359086",
+      "loaded_services": [
+        "trace_fast_frequency",
+        "trace_heavy_latency",
+        "trace_medium_frequency",
+        "trace_slow_frequency",
+        "trace_slow_latency"
+      ],
+      "credit_pool": 1,
+      "active_batches": 0,
+      "queued_batches": 0,
+      "total_requests": 1037,
+      "total_batches": 1009,
+      "success_requests": 962,
+      "violation_requests": 75,
+      "average_queue_delay_ms": 92.25017086365533,
+      "per_service_metrics": {
+        "trace_fast_frequency": {
+          "queued": 0,
+          "ewma_delay_ms": 35.59652627307401,
+          "total_enqueued": 301,
+          "total_processed": 301,
+          "total_violations": 15
+        },
+        "trace_slow_frequency": {
+          "queued": 0,
+          "ewma_delay_ms": 48.59849118570659,
+          "total_enqueued": 356,
+          "total_processed": 356,
+          "total_violations": 0
+        },
+        "trace_medium_frequency": {
+          "queued": 0,
+          "ewma_delay_ms": 206.8318234950087,
+          "total_enqueued": 347,
+          "total_processed": 347,
+          "total_violations": 60
+        },
+        "trace_heavy_latency": {
+          "queued": 0,
+          "ewma_delay_ms": 11.068764925003052,
+          "total_enqueued": 2,
+          "total_processed": 2,
+          "total_violations": 0
+        },
+        "trace_slow_latency": {
+          "queued": 0,
+          "ewma_delay_ms": 5.524088770151138,
+          "total_enqueued": 3,
+          "total_processed": 3,
+          "total_violations": 0
+        }
+      }
+    },
+    "server1": {
+      "server": "server1",
+      "plan_version": "1775479944.9359086",
+      "loaded_services": [
+        "trace_fast_frequency",
+        "trace_fast_latency",
+        "trace_heavy_latency",
+        "trace_medium_frequency",
+        "trace_medium_latency",
+        "trace_slow_latency"
+      ],
+      "credit_pool": 30,
+      "active_batches": 0,
+      "queued_batches": 0,
+      "total_requests": 851,
+      "total_batches": 827,
+      "success_requests": 847,
+      "violation_requests": 4,
+      "average_queue_delay_ms": 1.1374852389205323,
+      "per_service_metrics": {
+        "trace_fast_frequency": {
+          "queued": 0,
+          "ewma_delay_ms": 0.3139666937553411,
+          "total_enqueued": 365,
+          "total_processed": 365,
+          "total_violations": 4
+        },
+        "trace_medium_frequency": {
+          "queued": 0,
+          "ewma_delay_ms": 0.05716287799160687,
+          "total_enqueued": 400,
+          "total_processed": 400,
+          "total_violations": 0
+        },
+        "trace_fast_latency": {
+          "queued": 0,
+          "ewma_delay_ms": 0.06520941251623484,
+          "total_enqueued": 19,
+          "total_processed": 19,
+          "total_violations": 0
+        },
+        "trace_medium_latency": {
+          "queued": 0,
+          "ewma_delay_ms": 0.04055900074907344,
+          "total_enqueued": 41,
+          "total_processed": 41,
+          "total_violations": 0
+        },
+        "trace_slow_latency": {
+          "queued": 0,
+          "ewma_delay_ms": 0.0,
+          "total_enqueued": 2,
+          "total_processed": 2,
+          "total_violations": 0
+        }
+      }
+    },
+    "server2": {
+      "server": "server2",
+      "plan_version": "1775479944.9359086",
+      "loaded_services": [
+        "trace_fast_latency",
+        "trace_medium_latency",
+        "trace_slow_frequency"
+      ],
+      "credit_pool": 28,
+      "active_batches": 0,
+      "queued_batches": 0,
+      "total_requests": 484,
+      "total_batches": 473,
+      "success_requests": 484,
+      "violation_requests": 0,
+      "average_queue_delay_ms": 17.43999797748461,
+      "per_service_metrics": {
+        "trace_slow_frequency": {
+          "queued": 0,
+          "ewma_delay_ms": 14.483340815917197,
+          "total_enqueued": 412,
+          "total_processed": 412,
+          "total_violations": 0
+        },
+        "trace_fast_latency": {
+          "queued": 0,
+          "ewma_delay_ms": 15.872927106399876,
+          "total_enqueued": 18,
+          "total_processed": 18,
+          "total_violations": 0
+        },
+        "trace_medium_latency": {
+          "queued": 0,
+          "ewma_delay_ms": 19.381543927716038,
+          "total_enqueued": 43,
+          "total_processed": 43,
+          "total_violations": 0
+        }
+      }
+    }
+  }
+}

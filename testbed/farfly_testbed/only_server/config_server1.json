@@ -1,0 +1,65 @@
+{
+    "name": "server1",
+    "self": {
+        "ip": "0.0.0.0",
+        "port": 5001,
+        "exposed_ip": "10.10.60.29"
+    },
+    "scheduler": {
+        "ip": "10.10.60.22",
+        "port": 5100
+    },
+    "servers": [
+        {
+            "name": "server0",
+            "ip": "10.10.60.22",
+            "port": 5000,
+            "resource": {
+                "compute_capacity": 1.0,
+                "vram_capacity_gb": 24.0,
+                "queue_capacity": 64,
+                "gpu_count": 1,
+                "initial_credit_pool": 12,
+                "max_credit_pool": 48
+            }
+        },
+        {
+            "name": "server1",
+            "ip": "10.10.60.29",
+            "port": 5001,
+            "resource": {
+                "compute_capacity": 0.85,
+                "vram_capacity_gb": 16.0,
+                "queue_capacity": 48,
+                "gpu_count": 1,
+                "initial_credit_pool": 10,
+                "max_credit_pool": 40
+            }
+        },
+        {
+            "name": "server2",
+            "ip": "10.10.60.24",
+            "port": 5002,
+            "resource": {
+                "compute_capacity": 1.0,
+                "vram_capacity_gb": 24.0,
+                "queue_capacity": 64,
+                "gpu_count": 1,
+                "initial_credit_pool": 12,
+                "max_credit_pool": 48
+            }
+        }
+    ],
+    "service_catalog_file": "farfly_services.json",
+    "max_offload_count": 3,
+    "timeout_seconds": 30,
+    "max_concurrent_tasks": 3,
+    "resource": {
+        "compute_capacity": 0.85,
+        "vram_capacity_gb": 16.0,
+        "queue_capacity": 48,
+        "gpu_count": 1,
+        "initial_credit_pool": 10,
+        "max_credit_pool": 40
+    }
+}

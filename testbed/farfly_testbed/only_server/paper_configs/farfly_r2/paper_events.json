@@ -1,0 +1,4952 @@
+[
+  {
+    "scheduled_offset": 0.016643,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 0,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 0,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.03375,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 0,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 0,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.039102,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 0,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 0,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.075123,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 1,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 1,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.097582,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 1,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 1,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.097829,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 0,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.106849,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 1,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 1,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.133602,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 2,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 2,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.156062,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 2,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 2,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.179948,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 2,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 2,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.192082,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 3,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 3,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.214541,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 3,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 3,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.250561,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 4,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 4,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.253048,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 3,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 3,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.273021,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 4,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 4,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.306635,
+    "service": "llama3_chat_generation",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 2500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 0,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.309041,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 5,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 5,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.326147,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 4,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 4,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.3315,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 5,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 5,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.360953,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 1,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.36752,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 6,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 6,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.38998,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 6,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 6,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.399247,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 5,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 5,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.425516,
+    "service": "yolov10_image_detection",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1500,
+    "home_server": "server2",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 0,
+      "home_server": "server2"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.426,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 7,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 7,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.448459,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 7,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 7,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.472346,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 6,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 6,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.484479,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 8,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 8,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.506939,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 8,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 8,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.514199,
+    "service": "llama3_chat_generation",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 2500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 1,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.542959,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 9,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 9,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.545446,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 7,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 7,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.552857,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 2,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.565418,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 9,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 9,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.567794,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 3,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.577348,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 4,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.595452,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 5,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.601438,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 10,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 10,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.613771,
+    "service": "yolov10_image_detection",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 1,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.615472,
+    "service": "llama3_chat_generation",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 2500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 2,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.618545,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 8,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 8,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.623898,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 10,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 10,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.659918,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 11,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 11,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.682377,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 11,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 11,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.691644,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 9,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 9,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.718397,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 12,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 12,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.733589,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server2",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 6,
+      "home_server": "server2"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.740857,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 12,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 12,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.764744,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 10,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 10,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.76663,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 7,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 0.776877,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 13,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 13,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.799336,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 13,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 13,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.835356,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 14,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 14,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.837843,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 11,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 11,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.857816,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 14,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 14,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.893836,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 15,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 15,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.910943,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 12,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 12,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.916295,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 15,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 15,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.952316,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 16,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 16,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.974775,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 16,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 16,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 0.984042,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 13,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 13,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.010795,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 17,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 17,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.013465,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server2",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 8,
+      "home_server": "server2"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 1.033255,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 17,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 17,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.057141,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 14,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 14,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.064928,
+    "service": "yolov10_image_detection",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 2,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 1.069275,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 18,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 18,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.091734,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 18,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 18,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.127754,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 19,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 19,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.130241,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 15,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 15,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.150214,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 19,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 19,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.186234,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 20,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 20,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.20334,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 16,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 16,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.208693,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 20,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 20,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.228621,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 9,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 1.244713,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 21,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 21,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.267173,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 21,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 21,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.27644,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 17,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 17,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.303193,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 22,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 22,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.325652,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 22,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 22,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.349539,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 18,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 18,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.361672,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 23,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 23,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.369519,
+    "service": "yolov10_image_detection",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1500,
+    "home_server": "server2",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 3,
+      "home_server": "server2"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 1.384132,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 23,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 23,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.420152,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 24,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 24,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.422639,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 19,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 19,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.442611,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 24,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 24,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.478631,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 25,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 25,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.495738,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 20,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 20,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.501091,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 25,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 25,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.537111,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 26,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 26,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.55957,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 26,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 26,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.568837,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 21,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 21,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.59559,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 27,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 27,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.61805,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 27,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 27,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.641937,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 22,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 22,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.65407,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 28,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 28,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.676529,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 28,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 28,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.712549,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 29,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 29,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.715036,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 23,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 23,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.735009,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 29,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 29,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.771029,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 30,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 30,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.788136,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 24,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 24,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.793488,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 30,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 30,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.829509,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 31,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 31,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.851968,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 31,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 31,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.861235,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 25,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 25,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.887988,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 32,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 32,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.910448,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 32,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 32,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.934334,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 26,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 26,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.946468,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 33,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 33,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 1.968927,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 33,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 33,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.004947,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 34,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 34,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.007434,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 27,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 27,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.027407,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 34,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 34,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.063427,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 35,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 35,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.080533,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 28,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 28,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.085886,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 35,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 35,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.121906,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 36,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 36,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.144366,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 36,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 36,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.153633,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 29,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 29,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.163718,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 10,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 2.180386,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 37,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 37,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.202845,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 37,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 37,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.226732,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 30,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 30,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.238865,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 38,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 38,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.261325,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 38,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 38,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.297345,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 39,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 39,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.299832,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 31,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 31,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.319804,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 39,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 39,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.355824,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 40,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 40,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.372931,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 32,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 32,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.378284,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 40,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 40,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.414304,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 41,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 41,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.436763,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 41,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 41,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.44603,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 33,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 33,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.472783,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 42,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 42,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.495243,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 42,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 42,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.51913,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 34,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 34,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.531263,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 43,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 43,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.553722,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 43,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 43,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.589742,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 44,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 44,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.592229,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 35,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 35,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.612202,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 44,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 44,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.648222,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 45,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 45,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.652527,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 11,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 2.665329,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 36,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 36,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.670681,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 45,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 45,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.691472,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 12,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 2.706701,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 46,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 46,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.729161,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 46,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 46,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.738428,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 37,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 37,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.765181,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 47,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 47,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.783689,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server2",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 13,
+      "home_server": "server2"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 2.787641,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 47,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 47,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.811527,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 38,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 38,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.81684,
+    "service": "yolov10_image_detection",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 4,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 2.823661,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 48,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 48,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.833523,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 14,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 2.84612,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 48,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 48,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.88214,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 49,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 49,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.884627,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 39,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 39,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.9046,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 49,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 49,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.94062,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 50,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 50,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.957726,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 40,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 40,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.963079,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 50,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 50,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 2.999099,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 51,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 51,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.021559,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 51,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 51,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.030826,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 41,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 41,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.052177,
+    "service": "llama3_chat_generation",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 2500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 3,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.057579,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 52,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 52,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.080038,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 52,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 52,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.088182,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 15,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.103925,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 42,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 42,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.116058,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 53,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 53,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.138518,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 53,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 53,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.174538,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 54,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 54,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.177025,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 43,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 43,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.196997,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 54,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 54,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.233017,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 55,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 55,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.250124,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 44,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 44,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.255477,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 55,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 55,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.283017,
+    "service": "llama3_chat_generation",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 2500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 4,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.286559,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 16,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.291497,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 56,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 56,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.301922,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 17,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.313956,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 56,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 56,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.323223,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 45,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 45,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.349976,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 57,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 57,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.362388,
+    "service": "yolov10_image_detection",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 5,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.372436,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 57,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 57,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.396323,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 46,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 46,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.408456,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 58,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 58,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.430915,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 58,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 58,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.466935,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 59,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 59,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.469422,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 47,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 47,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.489395,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 59,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 59,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.525415,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 60,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 60,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.542522,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 48,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 48,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.547874,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 60,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 60,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.583894,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 61,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 61,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.587093,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 18,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.606354,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 61,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 61,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.615621,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 49,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 49,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.642374,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 62,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 62,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.664833,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 62,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 62,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.681367,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 19,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.68872,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 50,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 50,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.700854,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 63,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 63,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.723313,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 63,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 63,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.757195,
+    "service": "llama3_chat_generation",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 2500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 5,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.759333,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 64,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 64,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.76182,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 51,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 51,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.781793,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 64,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 64,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.817813,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 65,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 65,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.832277,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 20,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.834919,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 52,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 52,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.840272,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 65,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 65,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.876292,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 66,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 66,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.898752,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 66,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 66,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.908019,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 53,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 53,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.934772,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 67,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 67,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.957231,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 67,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 67,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.966868,
+    "service": "yolov10_image_detection",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 6,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 3.981118,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 54,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 54,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 3.993251,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 68,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 68,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.015711,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 68,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 68,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.051731,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 69,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 69,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.054217,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 55,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 55,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.07419,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 69,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 69,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.11021,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 70,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 70,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.127317,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 56,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 56,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.13267,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 70,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 70,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.16869,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 71,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 71,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.191149,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 71,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 71,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.200416,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 57,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 57,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.227169,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 72,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 72,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.227708,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 21,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 4.249629,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 72,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 72,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.273516,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 58,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 58,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.285649,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 73,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 73,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.297669,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 22,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 4.308108,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 73,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 73,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.344128,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 74,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 74,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.346615,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 59,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 59,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.366588,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 74,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 74,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.402608,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 75,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 75,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.419715,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 60,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 60,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.425067,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 75,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 75,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.461087,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 76,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 76,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.483547,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 76,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 76,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.483882,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server2",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 23,
+      "home_server": "server2"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 4.492814,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 61,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 61,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.519567,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 77,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 77,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.542026,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 77,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 77,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.565913,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 62,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 62,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.578047,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 78,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 78,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.583619,
+    "service": "llama3_chat_generation",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 2500,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 6,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 4.600506,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 78,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 78,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.636526,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 79,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 79,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.639013,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 63,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 63,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.658986,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 79,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 79,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.695006,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 80,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 80,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.712112,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 64,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 64,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.717465,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 80,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 80,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.753485,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 81,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 81,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.775945,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 81,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 81,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.785212,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 65,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 65,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.810702,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 24,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 4.811965,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 82,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 82,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.834424,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 82,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 82,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.858311,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 66,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 66,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.870444,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 83,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 83,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.892904,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 83,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 83,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.928924,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 84,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 84,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.93141,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 67,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 67,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.951383,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 84,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 84,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 4.987403,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 85,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 85,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.00451,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 68,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 68,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.009863,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 85,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 85,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.045883,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 86,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 86,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.068342,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 86,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 86,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.077609,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 69,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 69,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.104362,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 87,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 87,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.126822,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 87,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 87,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.150709,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 70,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 70,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.162842,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 88,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 88,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.185301,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 88,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 88,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.221321,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 89,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 89,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.223808,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 71,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 71,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.243781,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 89,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 89,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.279801,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 90,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 90,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.296908,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 72,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 72,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.30226,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 90,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 90,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.33828,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 91,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 91,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.36074,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 91,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 91,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.370007,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 73,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 73,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.39676,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 92,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 92,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.419219,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 92,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 92,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.443106,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 74,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 74,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.45524,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 93,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 93,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.477699,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 93,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 93,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.513719,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 94,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 94,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.516206,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 75,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 75,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.536179,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 94,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 94,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.572199,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 95,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 95,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.589305,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 76,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 76,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.594658,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 95,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 95,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.630678,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 96,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 96,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.653138,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 96,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 96,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.662405,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 77,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 77,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.689158,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 97,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 97,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.711617,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 97,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 97,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.735504,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 78,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 78,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.747637,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 98,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 98,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.770097,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 98,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 98,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.790903,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 25,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 5.806117,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 99,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 99,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.808603,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 79,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 79,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.828576,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 99,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 99,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.864596,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 100,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 100,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.881703,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 80,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 80,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.887056,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 100,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 100,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.923076,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 101,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 101,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.926277,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server2",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 26,
+      "home_server": "server2"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 5.945535,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-1",
+    "frame_id": 101,
+    "timeout_ms": 400,
+    "home_server": "server1",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-1",
+      "frame": 101,
+      "home_server": "server1"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.954802,
+    "service": "unet_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "unet_video_segmentation-flow-0",
+    "frame_id": 81,
+    "timeout_ms": 350,
+    "home_server": "server0",
+    "payload": {
+      "source": "unet_video_segmentation-flow-0",
+      "frame": 81,
+      "home_server": "server0"
+    },
+    "task_type": "frequency"
+  },
+  {
+    "scheduled_offset": 5.967491,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 27,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 5.977491,
+    "service": "resnet50_image_classification",
+    "kind": "latency",
+    "flow_id": null,
+    "frame_id": null,
+    "timeout_ms": 1200,
+    "home_server": "server0",
+    "payload": {
+      "source": "paper-latency",
+      "sequence": 28,
+      "home_server": "server0"
+    },
+    "task_type": "latency"
+  },
+  {
+    "scheduled_offset": 5.981555,
+    "service": "deeplabv3_video_segmentation",
+    "kind": "frequency",
+    "flow_id": "deeplabv3_video_segmentation-flow-0",
+    "frame_id": 102,
+    "timeout_ms": 400,
+    "home_server": "server2",
+    "payload": {
+      "source": "deeplabv3_video_segmentation-flow-0",
+      "frame": 102,
+      "home_server": "server2"
+    },
+    "task_type": "frequency"
+  }
+]

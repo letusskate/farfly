@@ -1,0 +1,68 @@
+{
+  "self": {
+    "ip": "127.0.0.1",
+    "port": 9100,
+    "exposed_ip": "127.0.0.1"
+  },
+  "dispatch_timeout_seconds": 20,
+  "dispatch_workers": 12,
+  "violation_alpha": 0.25,
+  "credit_poll_interval": 2.0,
+  "dispatch_policy": "round_robin",
+  "placement": {
+    "mode": "static",
+    "plan_file": "trace_placement.json",
+    "allow_runtime_recompute": false
+  },
+  "planner": {
+    "window_seconds": 60,
+    "priority_services": [
+      "deeplabv3_video_segmentation",
+      "unet_video_segmentation",
+      "llama3_chat_generation"
+    ]
+  },
+  "service_catalog_file": "trace_services.json",
+  "workload_forecast_file": "trace_workload.json",
+  "servers": [
+    {
+      "name": "server0",
+      "ip": "127.0.0.1",
+      "port": 9000,
+      "resource": {
+        "compute_capacity": 1.0,
+        "vram_capacity_gb": 24.0,
+        "queue_capacity": 64,
+        "gpu_count": 1,
+        "initial_credit_pool": 8,
+        "max_credit_pool": 48
+      }
+    },
+    {
+      "name": "server1",
+      "ip": "127.0.0.1",
+      "port": 9001,
+      "resource": {
+        "compute_capacity": 1.0,
+        "vram_capacity_gb": 24.0,
+        "queue_capacity": 64,
+        "gpu_count": 1,
+        "initial_credit_pool": 8,
+        "max_credit_pool": 48
+      }
+    },
+    {
+      "name": "server2",
+      "ip": "127.0.0.1",
+      "port": 9002,
+      "resource": {
+        "compute_capacity": 1.0,
+        "vram_capacity_gb": 24.0,
+        "queue_capacity": 64,
+        "gpu_count": 1,
+        "initial_credit_pool": 8,
+        "max_credit_pool": 48
+      }
+    }
+  ]
+}

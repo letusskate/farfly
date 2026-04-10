@@ -1,0 +1,146 @@
+ARG EPARA_BASE_PATH=/workspace
+ARG EPARA_PATH=$EPARA_BASE_PATH/epara
+ARG EPARA_GIT_LINK=https://github.com/letusskate/epara.git
+ARG EPARA_GIT_BRANCH=master
+
+FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
+
+# Use bash shell in Docker for conda compatibility
+SHELL ["/bin/bash", "-c"]
+
+
+# Update and install prerequisites (if needed)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget \
+    curl \
+    bzip2 \
+    ca-certificates \
+    libglib2.0-0 \
+    libxext6 \
+    libsm6 \
+    libxrender1 \
+    libgl1-mesa-glx \
+    tmux \
+    git && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install Miniconda in /usr/local/conda
+RUN wget --quiet https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda.sh \
+    && /bin/bash /tmp/miniconda.sh -b -p /usr/local/conda \
+    && rm -f /tmp/miniconda.sh \
+    && /usr/local/conda/bin/conda clean --all -y
+    ## install mamba
+    # && /usr/local/conda/bin/conda clean --all -y \ 
+    # && /usr/local/conda/bin/conda install -y mamba -n base -c conda-forge 
+
+# Update PATH so conda is directly accessible
+ENV PATH="/usr/local/conda/bin:${PATH}"
+
+# Combine conda init, environment creation, and package installs in a single RUN
+RUN conda init bash \
+    && echo "source ~/.bashrc" >> ~/.bash_profile \
+    && source ~/.bashrc 
+
+# activate mamba
+# RUN eval "$(mamba shell hook --shell bash)" \
+    # && mamba activate
+
+# create environment
+RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ \
+    && conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ \
+    && conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ \
+    && conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/ \
+    && conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/ \
+    && conda config --set show_channel_urls yes \
+    && conda config --set remote_connect_timeout_secs 120 \
+    && conda config --set remote_read_timeout_secs 120 \ 
+    && conda config --set remote_max_retries 5 \
+    && eval "$(mamba shell hook --shell bash)" \
+    && conda create -y --name pytorch_env python=3.9 \
+    # && conda activate pytorch_env \
+    && source activate pytorch_env \
+    ## 官方（其实有cuda了，再装很可能导致冲突）: conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+    ## 之前（其实有cuda了，再装很可能导致冲突，此外，这个命令没有指定pytorch版本，可能导致不兼容cuda版本）: && mamba install -y pytorch torchvision torchaudio cudatoolkit=11.8 \
+    && conda install -y pytorch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 \
+    ## resnet
+    && conda install -y opencv matplotlib \
+    ## yolov10
+    && conda install -y -c conda-forge gradio \
+    && conda clean --all -y
+
+# Set a default working directory
+WORKDIR /workspace
+
+# Default command to keep container in bash
+CMD ["/bin/bash"]
+
+# git clone
+# RUN cd $EPARA_BASE_PATH && git clone $EPARA_GIT_LINK
+
+############################################################################
+# # use mamba
+
+# ARG EPARA_BASE_PATH=/workspace
+# ARG EPARA_PATH=$EPARA_BASE_PATH/epara
+# ARG EPARA_GIT_LINK=https://github.com/letusskate/epara.git
+# ARG EPARA_GIT_BRANCH=master
+
+# FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
+
+# # Use bash shell in Docker for conda compatibility
+# SHELL ["/bin/bash", "-c"]
+
+
+# # Update and install prerequisites (if needed)
+# RUN apt-get update && apt-get install -y --no-install-recommends \
+#     wget \
+#     curl \
+#     bzip2 \
+#     ca-certificates \
+#     libglib2.0-0 \
+#     libxext6 \
+#     libsm6 \
+#     libxrender1 \
+#     git && \
+#     rm -rf /var/lib/apt/lists/*
+
+# # Install Miniconda in /usr/local/conda
+# RUN wget --quiet https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda.sh \
+#     && /bin/bash /tmp/miniconda.sh -b -p /usr/local/conda \
+#     && rm -f /tmp/miniconda.sh \
+#     ## install mamba
+#     && /usr/local/conda/bin/conda clean --all -y \ 
+#     && /usr/local/conda/bin/conda install -y mamba -n base -c conda-forge 
+
+# # Update PATH so conda is directly accessible
+# ENV PATH="/usr/local/conda/bin:${PATH}"
+
+# # Combine conda init, environment creation, and package installs in a single RUN
+# RUN conda init bash \
+#     && echo "source ~/.bashrc" >> ~/.bash_profile \
+#     && source ~/.bashrc 
+
+# # activate mamba
+# RUN eval "$(mamba shell hook --shell bash)" \
+#     && mamba activate
+
+# # create environment
+# RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ \
+#     && conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ \
+#     && conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ \
+#     && conda config --set show_channel_urls yes \
+#     && eval "$(mamba shell hook --shell bash)" \
+#     && mamba create -y --name pytorch_env python=3.8 \
+#     # && conda activate pytorch_env \
+#     && mamba activate pytorch_env \
+#     && mamba install -y pytorch torchvision torchaudio cudatoolkit=11.8 \
+#     && conda clean --all -y
+
+# # Set a default working directory
+# WORKDIR /workspace
+
+# # Default command to keep container in bash
+# CMD ["/bin/bash"]
+
+# # git clone
+# # RUN cd $EPARA_BASE_PATH && git clone $EPARA_GIT_LINK

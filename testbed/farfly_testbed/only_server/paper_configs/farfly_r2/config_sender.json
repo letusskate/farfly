@@ -1,0 +1,27 @@
+{
+  "scheduler": {
+    "ip": "127.0.0.1",
+    "port": 9800,
+    "submit_path": "/submit"
+  },
+  "servers": [
+    {
+      "name": "server0",
+      "ip": "127.0.0.1",
+      "port": 9700
+    },
+    {
+      "name": "server1",
+      "ip": "127.0.0.1",
+      "port": 9701
+    },
+    {
+      "name": "server2",
+      "ip": "127.0.0.1",
+      "port": 9702
+    }
+  ],
+  "max_offload_count": 3,
+  "timeout_seconds": 30,
+  "max_concurrent_tasks": 3
+}

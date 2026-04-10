@@ -1,0 +1,36 @@
+{
+  "forecasts": [
+    {
+      "service": "resnet50_image_classification",
+      "task_type": "latency",
+      "arrival_rate": 4.0,
+      "weight": 1.0
+    },
+    {
+      "service": "yolov10_image_detection",
+      "task_type": "latency",
+      "arrival_rate": 2.0,
+      "weight": 1.1
+    },
+    {
+      "service": "deeplabv3_video_segmentation",
+      "task_type": "frequency",
+      "flow_count": 2,
+      "fps_slo": 17.1,
+      "weight": 1.4
+    },
+    {
+      "service": "unet_video_segmentation",
+      "task_type": "frequency",
+      "flow_count": 1,
+      "fps_slo": 13.68,
+      "weight": 1.2
+    },
+    {
+      "service": "llama3_chat_generation",
+      "task_type": "latency",
+      "arrival_rate": 0.6,
+      "weight": 1.3
+    }
+  ]
+}
